@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(netflix.jpg);
+    background-blend-mode: darken;
+}
+
+.logo img {
+    width: 12%;
+    margin-left: 155px;
+    margin-top: 30px;
+
+}
+
+.container {
+    position: static;
+    margin-left: 36%;
+    margin-top: 16px;
+    width: 440px;
+    height: 590px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.container h1 {
+    color: white;
+    margin-top: 60px;
+    margin-left: 50px;
+    padding-top: 40px;
+}
+
+input {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 320px;
+    height: 47px;
+    background-color: #333333;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+}
+
+input::placeholder {
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+}
+
+input[type=submit] {
+    width: 320px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+input[type=checkbox] {
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+    display: inline;
+}
+
+.form p {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+label {
+    color: #464545;
+}
+
+.bottom {
+    position: relative;
+    margin-top: 50px;
+    font-size: 10px;
+    margin-left: 55px;
+    margin-right: 60px;
+}
+
+.bottom h2,
+p {
+    color: gray;
+}
+
+.bottom h2 a {
+    color: white;
+}
+
+.bottom p {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: black;
+    opacity: 0.8;
+    padding: 2px;
+    margin-top: 100px;
+}
+
+.content {
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.content ul li {
+    display: inline-block;
+    list-style: none;
+    flex-direction: row;
+}
+
+.content a {
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 14px;
+    line-height: 11px;
+    margin-left: 70px;
+    margin-right: 110px;
+    padding: 20px;
+    display: block;
+    text-decoration: underline;
+}
+
+.footer select {
+    border-radius: 5px;
+    border-color: gainsboro;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 167px;
+    font-size: 16px;
+    padding: 5px;
+}
